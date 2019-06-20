@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-image: url(https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
 }
 
 #container {
@@ -65,7 +65,7 @@ h1 {
 }
 
 .btn1 button {
-  background-color: #a63333;
+  background-color: #F24738;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -87,7 +87,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: #a63333;
+  color: #F24738;
   font-size: 0.7em;
 }
 

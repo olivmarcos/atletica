@@ -7,45 +7,28 @@
     <title>Salão</title>
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/all.min.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div id="imagem">
-      <header>
-        <div>
-          <img id="logo" src="img/como-criar-um-logo.jpg" alt="" />
-        </div>
-        <menu>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="/Listar/produto.html">Produtos</a></li>
-          <li><a href="/Listar/servico.html">Serviços</a></li>
-        </menu>
-      </header>
-
-      <div class="textCenter">
-        <p>
-          "O SalãoTyme é um espaço diferenciado voltado à beleza, <br />
-          localizado na Vila Beleza, com ambiente descontraído <br />
-          e todo charme que o público descolado procura. Nosso <br />
-          objetivo é superar as expectativas dos clientes.
-        </p>
+    <header>
+      <div>
+        <img id="logo" src="img/attComp.jpeg" alt="" />
       </div>
+      <menu>
+        <li><a id="inicio" href="#">Início</a></li>
+        <li><a id="evento" href="#">Eventos</a></li>
+        <li><a href="Listar/produto.html">Produtos</a></li>
+        <li><a href="Listar/parceiro.html">Parceiros</a></li>
+        <li><a href="login.html">Login</a></li>
+      </menu>
+    </header>
 
-      <div class="redes">
-        <ul>
-          <li>
-            <a href=""><i class="fab fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fab fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fab fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fab fa-whatsapp"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <div class="load"></div>
+
+    <script src="ajax.js"></script>
   </body>
 </html>
