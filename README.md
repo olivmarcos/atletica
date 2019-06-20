@@ -1,1 +1,1 @@
-Formulários simples para uma atividade da disciplina de Tecnologias da Web.
+Aplicação criada para a matéria de Tecnologias da Web.
