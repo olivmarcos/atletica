@@ -91,10 +91,7 @@ p {
   color: white;
 }
 
-@media all and (max-width: 768px) {
-  header {
-    flex-direction: column;
-  }
+@media all and (max-width: 1440px) {
   .textCenter {
     margin-top: 6em;
   }
@@ -115,10 +112,26 @@ p {
     font-size: 2rem;
   }
 }
+@media all and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  .redes {
+    margin-top: 3rem;
+  }
+}
 
 @media all and (max-width: 575px) {
   menu li {
     padding: 0.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .redes {
+    font-size: 1.5rem;
   }
 }
 
@@ -132,7 +145,7 @@ p {
   }
 
   menu a {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   .textCenter {
@@ -143,20 +156,15 @@ p {
     font-size: 1.2rem;
     margin-bottom: 3rem;
   }
-  
+
   p {
     font-size: 1rem;
-  }
-
-  .redes {
-    font-size: 1.5rem;
   }
 }
 
 @media all and (max-width: 321px) {
-
   menu a {
-    font-size: .6rem;
+    font-size: 0.6rem;
   }
 
   .textCenter {
