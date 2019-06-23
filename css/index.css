@@ -90,6 +90,22 @@ p {
   color: white;
 }
 
+@media all and (max-width: 1200px) {
+ 
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .redes {
+    font-size: 2rem;
+  }
+}
+
 @media all and (max-width: 768px) {
   header {
     flex-direction: column;
@@ -147,6 +163,7 @@ p {
 }
 
 @media all and (max-width: 321px) {
+
   menu a {
     font-size: .6rem;
   }
