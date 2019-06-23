@@ -29,7 +29,7 @@ header {
 
 img {
   margin: 1rem;
-  width: 7rem;
+  width: 6rem;
   border-radius: 50%;
 }
 
@@ -39,8 +39,9 @@ menu {
 
 menu li {
   list-style: none;
-  padding: 2rem;
+  padding: 1rem;
 }
+
 menu a {
   text-decoration: none;
   color: black;
@@ -48,11 +49,11 @@ menu a {
 }
 
 h1 {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .textCenter {
-  margin-top: 12rem;
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,7 +67,7 @@ p {
 }
 
 .redes {
-  margin-top: 7rem;
+  margin-top: 5rem;
   font-size: 3rem;
   position: relative;
   display: flex;
@@ -90,30 +91,28 @@ p {
   color: white;
 }
 
-@media all and (max-width: 1200px) {
-  h1 {
-    font-size: 1.8rem;
-    margin-bottom: 5rem;
-  }
-
-  p {
-    font-size: 1.5rem;
-  }
-
-  .redes {
-    font-size: 2rem;
-  }
-}
-
 @media all and (max-width: 768px) {
   header {
     flex-direction: column;
   }
   .textCenter {
-    margin-top: 7em;
+    margin-top: 6em;
   }
   .redes {
     font-size: 1.5rem;
+  }
+
+  h1 {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  .redes {
+    font-size: 2rem;
   }
 }
 
