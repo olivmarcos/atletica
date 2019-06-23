@@ -184,6 +184,7 @@ p {
 ::-moz-selection { /* Firefox */
   background: #f24738;
 }
+
 ::selection {
   background: #f24738;
 }
