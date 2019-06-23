@@ -115,10 +115,15 @@ p {
   }
 }
 
-@media all and (max-width: 420px) {
+@media all and (max-width: 460px) {
   img {
     width: 5rem;
   }
+
+  menu li {
+    padding: 0.3rem;
+  }
+
   menu a {
     font-size: .7rem;
   }
