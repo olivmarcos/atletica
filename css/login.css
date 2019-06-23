@@ -94,14 +94,14 @@ a {
 
 @media all and (max-width: 1440px) {
   .title img {
-    width: 8rem;
+    width: 6rem;
   }
   .form2 {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   .btn1 button {
-    padding: 14px 30px;
+    padding: 12px 28px;
 
   }
 }
