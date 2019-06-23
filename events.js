@@ -22,3 +22,11 @@ $(".hover").mouseover(function() {
   $(".hover").mouseout(function() {
     $(this, "a").removeClass("teste");
   });
+
+  $(".image").mouseover(function() {
+    $(this, 'img').css("transform", "scale(1.1)");
+  })
+
+  $(".image").mouseout(function() {
+    $(this, 'img').css("transform", "scale(1.0)");
+  })
