@@ -145,3 +145,22 @@ p {
     font-size: 1.5rem;
   }
 }
+
+@media all and (max-width: 321px) {
+  menu a {
+    font-size: .6rem;
+  }
+
+  .textCenter {
+    margin-top: 4em;
+  }
+
+  .redes {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+  }
+
+  .redes li {
+    padding: 1rem;
+  }
+}
