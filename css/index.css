@@ -36,6 +36,7 @@ img {
 menu {
   display: flex;
 }
+
 menu li {
   list-style: none;
   padding: 2rem;
@@ -104,11 +105,38 @@ p {
     font-size: 1.8rem;
     margin-bottom: 5rem;
   }
+
   p {
     font-size: 1.5rem;
   }
 
   .redes {
     font-size: 2rem;
+  }
+}
+
+@media all and (max-width: 420px) {
+  img {
+    width: 5rem;
+  }
+  menu a {
+    font-size: .7rem;
+  }
+
+  .textCenter {
+    margin-top: 5em;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+
+  .redes {
+    font-size: 1.5rem;
   }
 }
