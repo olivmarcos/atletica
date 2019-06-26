@@ -13,7 +13,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-image: url("https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
 }
 
 #container {
@@ -21,6 +22,7 @@ body {
   width: 90vw;
   color: black;
   background-color: white;
+
 }
 
 h1 {

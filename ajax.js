@@ -15,4 +15,15 @@ $(document).ready(function() {
 		$(".load").load("parceiro.html");
 	});
 
+	$("#venda").click(function() {
+		$(".formularios").load("venda.html")
+	})
+
+	$("#associado").click(function() {
+		$(".formularios").load("associado.html")
+	})
+
+	$("#voltar").click(function() {
+		$(".formularios").load("adm.html")
+	})
 })
