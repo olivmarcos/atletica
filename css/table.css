@@ -40,6 +40,7 @@ table.greyGridTable {
   table.greyGridTable tfoot td {
     font-size: 14px;
   }
+  
 
   @media (max-width: 700px) {
     table.greyGridTable {

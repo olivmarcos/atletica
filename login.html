@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Login</title>
     <link rel="stylesheet" href="css/login.css">
+	
   </head>
   <body>
     <div id="container">
@@ -14,20 +15,20 @@
               <img src="img/attComp.jpeg" alt="">
           </div>
         <div class="form2">
-          <form action="" method="POST">
-            Nome <br />
-            <input type="text" name="nome" placeholder="Digite o seu Nome" />
-          </form>
-          <form action="" method="POST">
-            Senha <br />
-            <input type="text" name="nome" placeholder="Digite a sua Senha" />
+          <form method="POST">
+            <label>Usuário</label> <br>
+            <input type="text" name="usuario" placeholder="Digite o nome de Usuário" />
+			<br>
+            <label>Senha</label> <br>
+            <input type="password" name="senha" placeholder="Digite a sua Senha" />
           </form>
         </div>
         <div class="btn1">
-          <button type="submit">Entrar</button>
+          <button type="submit" onclick="return Login()">Entrar</button>
           <a href="">Esqueci a Senha</a>
         </div>
       </div>
     </div>
   </body>
+  <script src="login.js"></script>
 </html>
